@@ -136,3 +136,16 @@ By employing a **hierarchical classification strategy**[^1], enhancing sentiment
 **Note**: The Python script accompanying this writeup reproduces the best Kaggle submission exactly, ensuring consistency and reproducibility of results.  
   
 ---  
+  
+---  
+  
+[^1]: Hierarchical Classification technique is used to break down the classification problem into multiple binary classifications. **Citation**: *From ChatGPT.*  
+[^2]: `GridSearchCV` is utilized for hyperparameter tuning to find the best model parameters through cross-validation. **Citation**: *From ChatGPT.*  
+[^3]: `class_weight` parameter in SVM models helps in handling class imbalance by assigning different weights to classes. **Citation**: *From ChatGPT.*  
+[^4]: `StandardScaler` is employed to standardize features by removing the mean and scaling to unit variance, crucial for models like SVM. **Citation**: *From ChatGPT.*  
+[^5]: `LabelEncoder` transforms categorical labels into numeric form, enabling their use in machine learning models. **Citation**: *From ChatGPT.*  
+[^6]: VADER (Valence Aware Dictionary and sEntiment Reasoner) is a tool for sentiment analysis that provides scores for positive, negative, neutral, and compound sentiments. **Citation**: *From ChatGPT.*  
+[^7]: Model evaluation using metrics such as accuracy, precision, recall, and F1-score, along with confusion matrices, provides a comprehensive understanding of model performance. **Citation**: *From ChatGPT.*  
+[^8]: `train_test_split` is a method to split datasets into training and testing subsets while maintaining the distribution of classes using the `stratify` parameter. **Citation**: *From ChatGPT.*  
+[^9]: Sparse matrix operations like `hstack` and `csr_matrix` are essential for efficiently handling large, sparse datasets common in text processing. **Citation**: *From ChatGPT.*  
+[^10]: Hyperparameter tuning techniques involve selecting the optimal set of hyperparameters that yield the best performance for a given model. **Citation**: *From ChatGPT.*  
